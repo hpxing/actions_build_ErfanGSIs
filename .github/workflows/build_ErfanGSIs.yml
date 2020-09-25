@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: https://download.meizu.com/Firmware/Flyme/16s_Pro/8.20.9.22/cn_daily/20200922002115/4abdf5da/update.zip
-  ROM_NAME: flyme
+  ROM_NAME: Flyme for Android 10
   TZ: Asia/Shanghai
 
 jobs:
@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI.zip
+              ./transfer wet final/GSI.zip
 
          
             
